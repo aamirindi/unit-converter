@@ -53,7 +53,7 @@ const Converter = () => {
   return (
     <div className="flex items-center justify-center converter">
       <motion.div
-        className="container p-8 rounded-3xl shadow-xl w-full max-w-lg transform transition duration-500 hover:shadow-2xl"
+        className="container  p-8 rounded-3xl shadow-xl w-full max-w-lg transform transition duration-500 hover:shadow-2xl"
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
